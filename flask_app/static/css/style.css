@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f18b8b;
+}
+
+h2 {
+    color: #330a0a;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#SpecialInput {
+    background-color: #3b1010;
+    padding: 30px;
+    border-radius: 1px;
+    border: solid orange;
+    color: #0ac232d2;
+}

@@ -1,0 +1,21 @@
+<!-- This page is to show the outcome. A brief example of if conditional is showed -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Outcome</title>
+</head>
+<body>
+
+<h2>Prediction outcome: </h2>
+<p>{{ prediction }}</p>
+{% if prediction == "Dropout" %}
+<br><br>
+<h1>You must study more!</h1>
+{% endif %}
+
+
+<a href="/">Go back</a>
+
+</body>
+</html>
